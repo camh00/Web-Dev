@@ -1,0 +1,65 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12pt;
+    margin: 2%;
+}
+
+p {
+    margin-top: 4pt;
+    margin-bottom: 8pt;
+}
+
+h1 {
+    font-size: 30pt;
+    background: linear-gradient(white, darkslategray);
+}
+
+h2 {
+    font-size: 20pt;
+    margin-top: 15pt;
+    margin-bottom: 6pt;
+}
+
+hr {
+    border-top: 10px solid black;
+}
+
+.headshot {
+    width: 294.5px;
+    height: 368.5px;
+    border: 5px solid darkslategray;
+    display: inline-block;
+}
+
+.info {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 100px;
+    padding-left: 200px;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.haiku {
+    margin-left: 100px;
+}
+
+.interests p {
+    text-indent: 50px;
+}
+
+table{
+    text-align: left;
+    vertical-align: top;
+}
+col {
+    width: 10%;
+}
+tr {
+    vertical-align: top;
+}
